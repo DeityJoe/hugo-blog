@@ -236,6 +236,3 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #  taxonomy = ["HTML", "RSS"]
 #  taxonomyTerm = ["HTML"]
 
-
-[permalinks]         # 固定链接
-post = "/post/:title.html"
