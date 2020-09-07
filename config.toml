@@ -238,4 +238,4 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
 
 [permalinks]         # 固定链接
-post = "/:title.html"
+post = "/post/:title.html"
