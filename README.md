@@ -10,3 +10,25 @@ LICENSE
 ---
 
 All components in the `content` folder, `static/post_doc` folder, `static/post_img` folder are distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), other components except for third party submodules are distributed under [MIT License](LICENSE).
+
+---
+
+添加到PATH
+
+```
+set PATH=%PATH%;C:\hugo\
+```
+
+ Linux路径`/usr/bin/hugo`
+
+
+```
+git clone https://github.com/ouuan/hugo-blog.git blog
+git clone https://github.com/ouuan/hugo-theme-even.git blog/themes/even
+git clone https://github.com/martignoni/hugo-video.git blog/themes/hugo-video
+cd blog/themes/even
+git checkout 709f99f
+cd -
+cd blog/themes/hugo-video
+git checkout 2f7fc12
+```
