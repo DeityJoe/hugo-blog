@@ -23,6 +23,7 @@ set PATH=%PATH%;C:\hugo\
 
 
 ```
+cd
 git clone https://github.com/ouuan/hugo-blog.git blog
 git clone https://github.com/ouuan/hugo-theme-even.git blog/themes/even
 git clone https://github.com/martignoni/hugo-video.git blog/themes/hugo-video
@@ -31,4 +32,8 @@ git checkout 709f99f
 cd -
 cd blog/themes/hugo-video
 git checkout 2f7fc12
+cd
+rm -rf -blog/themes/even/.git
+rm -rf -blog/themes/hugo-video/.git
+rm -rf -blog/.git
 ```
