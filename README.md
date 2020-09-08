@@ -37,3 +37,18 @@ rm -rf -blog/themes/even/.git
 rm -rf -blog/themes/hugo-video/.git
 rm -rf -blog/.git
 ```
+
+初使化`.git`
+
+```
+cd blog
+git init
+git add .
+git commit -m "test"
+```
+
+生成public
+
+```
+hugo
+```
