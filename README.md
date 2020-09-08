@@ -33,9 +33,9 @@ cd -
 cd blog/themes/hugo-video
 git checkout 2f7fc12
 cd
-rm -rf -blog/themes/even/.git
-rm -rf -blog/themes/hugo-video/.git
-rm -rf -blog/.git
+rm -rf blog/themes/even/.git
+rm -rf blog/themes/hugo-video/.git
+rm -rf blog/.git
 ```
 
 初使化`.git`
