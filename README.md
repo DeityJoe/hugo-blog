@@ -19,32 +19,10 @@ All components in the `content` folder, `static/post_doc` folder, `static/post_i
 set PATH=%PATH%;C:\hugo\
 ```
 
- Linux路径`/usr/bin/hugo`
-
-
-```
-cd
-git clone https://github.com/ouuan/hugo-blog.git blog
-git clone https://github.com/ouuan/hugo-theme-even.git blog/themes/even
-git clone https://github.com/martignoni/hugo-video.git blog/themes/hugo-video
-cd blog/themes/even
-git checkout 709f99f
-cd -
-cd blog/themes/hugo-video
-git checkout 2f7fc12
-cd
-rm -rf blog/themes/even/.git
-rm -rf blog/themes/hugo-video/.git
-rm -rf blog/.git
-```
-
-初使化`.git`
+clone仓库
 
 ```
-cd blog
-git init
-git add .
-git commit -m "test"
+git clone --recurse-submodules https://github.com/ouuan/hugo-blog.git
 ```
 
 生成public
